@@ -119,8 +119,8 @@ const educationInfo = {
       duration: " 2017 - aug 2021",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "",
+        ""
       ]
     },
     {
@@ -129,7 +129,7 @@ const educationInfo = {
       subHeader: "Science",
       duration: "2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: [""]
     }
   ]
 };
@@ -165,10 +165,10 @@ const workExperiences = {
       company: "starcompanypvt.ltd",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: ", sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "",
+        ""
       ]
     },
     {
@@ -176,7 +176,7 @@ const workExperiences = {
       company: "infyceltechnology",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: ", sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
 
   ]
@@ -199,7 +199,7 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
@@ -211,7 +211,7 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
