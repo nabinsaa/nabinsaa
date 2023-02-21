@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1eD3Jc8HIAEMahkR9j9_fPI3H-cyAFRwd/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -117,10 +117,9 @@ const educationInfo = {
       logo: require("./assets/images/SrmUniversity.png"),
       subHeader: "B-Tech, Computer Science Engineering",
       duration: " 2017 - aug 2021",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: " Bachelor of technology in computer science and engineering with specialization in cybersecurity.",
       descBullets: [
-        "",
-        ""
+        "CGPA : '7.42/10' "
       ]
     },
     {
@@ -128,8 +127,8 @@ const educationInfo = {
       logo: require("./assets/images/Model.webp"),
       subHeader: "Science",
       duration: "2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [""]
+      desc: "Studied science with mathematics",
+      descBullets: []
     }
   ]
 };
@@ -163,20 +162,17 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "starcompanypvt.ltd",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: ", sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "",
-        ""
-      ]
+      companylogo: require("./assets/images/starcompany.png"),
+      date: "",
+      desc: " I worked in reactjs ",
+      descBullets: []
     },
     {
       role: "Front-End Developer",
       company: "infyceltechnology",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/infyceltechnology.jpg"),
       date: "May 2017 – May 2018",
-      desc: ", sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: " Internship in PHP Laravel"
     },
 
   ]
@@ -194,18 +190,42 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Onile Hospitals Management System",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "",
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Online hospital management system",
+      projectDesc: "Online hospital management Software includes reduced paperwork simple access to reference records, effecutual billing of diffirent services, enhanced hospital administrations, no record duplications, minimized documentation, rapid information across various departments, optimized bed occupancy. The Online Hospital Management System In PHP is a simple project developed using PHP, JavaScript, and CSS.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://nabinsaa.github.io/nabinsaa/"
         }
         //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/File storage in two or more system.jpg"),
+      projectName: "File storage in two or more system",
+      projectDesc: "Knowledge of Networking protocols.        File storage (aka file-based storage or file-level storage) is the type of data storage where data is stored in a hierarchical file and folder structure. A file is stored as a whole without breaking down the data into blocks, such as in block storage.",
+      
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.ibm.com/topics/file-storage"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Vulnerability Assessment.png"),
+      subtitle: "Capstone project",
+      projectName: "Vulnerability Assessment and Penetration Testing in Web and Mobile Application.",
+      projectDesc: "1. Early Denial-of-Service Detection and Prevention.   drozer command ",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.redscan.com/services/penetration-testing/vapt/#:~:text=Vulnerability%20Assessment%20and%20Penetration%20Testing%20(VAPT)%20is%20a%20term%20used,help%20address%20cyber%20security%20vulnerabilities."
+        }
       ]
     },
     {
@@ -235,7 +255,7 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Nepali to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        " - 100% Scholarship in Bachelor Level for 4 Years at SRM- AP.- When I was in tenth grade (S.l.C) scoring an aggregate of 72.2%(out 120 students)- Won the Third prize in the running competition .",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
